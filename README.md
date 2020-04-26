@@ -2,7 +2,7 @@
 
 Go bluetooth API for Linux-based Bluez DBus interface.
 
-[![GoDoc](https://godoc.org/github.com/muka/go-bluetooth?status.svg)](https://godoc.org/github.com/muka/go-bluetooth)
+[![GoDoc](https://godoc.org/github.com/phedoreanu/go-bluetooth?status.svg)](https://godoc.org/github.com/phedoreanu/go-bluetooth)
 
 <img align="center" width="90" src="./gopher.png">
 
@@ -34,7 +34,7 @@ Generated code has `gen_` prefix. If an API file exists with the same filename b
 
 1. Clone the repository
 
-  `git clone https://github.com/muka/go-bluetooth.git`
+  `git clone https://github.com/phedoreanu/go-bluetooth.git`
 
 1. Retrieve the bluetooth API and generate GO code
 
@@ -51,7 +51,7 @@ The `examples/` folder offer an overview of the API.
 In order to interact with DBus, propert configurations must be installed in the system. For a development setup, the repository provides example configurations.
 
 ```sh
-  cd $GOPATH/src/github.com/muka/go-bluetooth
+  cd $GOPATH/src/github.com/phedoreanu/go-bluetooth
   make dev/dbus/install
   # Add bluetooth group to own the DBus service
   sudo addgroup bluetooth || true

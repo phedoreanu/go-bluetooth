@@ -4,7 +4,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/muka/go-bluetooth/gen/util"
+	"github.com/phedoreanu/go-bluetooth/gen/util"
 	"github.com/stretchr/testify/assert"
 )
 

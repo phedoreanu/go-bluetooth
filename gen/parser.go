@@ -3,9 +3,9 @@ package gen
 import (
 	"strings"
 
-	"github.com/muka/go-bluetooth/gen/parser"
-	"github.com/muka/go-bluetooth/gen/types"
-	"github.com/muka/go-bluetooth/gen/util"
+	"github.com/phedoreanu/go-bluetooth/gen/parser"
+	"github.com/phedoreanu/go-bluetooth/gen/types"
+	"github.com/phedoreanu/go-bluetooth/gen/util"
 	log "github.com/sirupsen/logrus"
 )
 

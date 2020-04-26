@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/godbus/dbus"
-	"github.com/muka/go-bluetooth/api"
-	"github.com/muka/go-bluetooth/bluez/profile/adapter"
-	"github.com/muka/go-bluetooth/bluez/profile/agent"
-	"github.com/muka/go-bluetooth/bluez/profile/device"
+	"github.com/phedoreanu/go-bluetooth/api"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/adapter"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/agent"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/device"
 	log "github.com/sirupsen/logrus"
 )
 

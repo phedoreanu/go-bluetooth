@@ -40,7 +40,7 @@ gen/run: bluez/checkout
 gen: gen/run
 
 test/api:
-	sudo go test github.com/muka/go-bluetooth/api
+	sudo go test github.com/phedoreanu/go-bluetooth/api
 
 build: gen
 	CGO_ENABLED=0 go build -o go-bluetooth ./main.go

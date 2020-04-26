@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/godbus/dbus"
-	"github.com/muka/go-bluetooth/bluez/profile/device"
-	"github.com/muka/go-bluetooth/bluez/profile/gatt"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/device"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/gatt"
 	log "github.com/sirupsen/logrus"
 )
 

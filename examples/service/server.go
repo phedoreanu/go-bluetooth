@@ -3,9 +3,9 @@ package service_example
 import (
 	"time"
 
-	"github.com/muka/go-bluetooth/api/service"
-	"github.com/muka/go-bluetooth/bluez/profile/agent"
-	"github.com/muka/go-bluetooth/bluez/profile/gatt"
+	"github.com/phedoreanu/go-bluetooth/api/service"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/agent"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/gatt"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/godbus/dbus"
-	"github.com/muka/go-bluetooth/bluez"
-	"github.com/muka/go-bluetooth/bluez/profile/gatt"
+	"github.com/phedoreanu/go-bluetooth/bluez"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/gatt"
 )
 
 func NewDevice(adapterID string, address string) (*Device1, error) {

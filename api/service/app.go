@@ -7,12 +7,12 @@ import (
 
 	"github.com/godbus/dbus"
 	"github.com/godbus/dbus/introspect"
-	"github.com/muka/go-bluetooth/api"
-	"github.com/muka/go-bluetooth/bluez"
-	"github.com/muka/go-bluetooth/bluez/profile/adapter"
-	"github.com/muka/go-bluetooth/bluez/profile/advertising"
-	"github.com/muka/go-bluetooth/bluez/profile/agent"
-	"github.com/muka/go-bluetooth/bluez/profile/gatt"
+	"github.com/phedoreanu/go-bluetooth/api"
+	"github.com/phedoreanu/go-bluetooth/bluez"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/adapter"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/advertising"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/agent"
+	"github.com/phedoreanu/go-bluetooth/bluez/profile/gatt"
 	log "github.com/sirupsen/logrus"
 )
 

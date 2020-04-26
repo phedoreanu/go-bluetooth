@@ -1,7 +1,7 @@
 package adapter
 
 import (
-	"github.com/muka/go-bluetooth/util"
+	"github.com/phedoreanu/go-bluetooth/util"
 )
 
 const (

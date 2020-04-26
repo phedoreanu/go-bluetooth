@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/muka/go-bluetooth/gen"
-	"github.com/muka/go-bluetooth/gen/generator"
-	"github.com/muka/go-bluetooth/gen/util"
+	"github.com/phedoreanu/go-bluetooth/gen"
+	"github.com/phedoreanu/go-bluetooth/gen/generator"
+	"github.com/phedoreanu/go-bluetooth/gen/util"
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 )
