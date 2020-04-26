@@ -80,7 +80,7 @@ func (s *Service) NewChar(uuid string) (*Char, error) {
 	char.app = s.App()
 	char.service = s
 	char.descr = make(map[dbus.ObjectPath]*Descr)
-	char.Properties = NewGattCharacteristic1Properties(uuid)
+	char.Properties = NewGattCharacteristic1Properties(char.UUID)
 
 	iprops, err := api.NewDBusProperties(s.App().DBusConn())
 	if err != nil {

@@ -30,7 +30,6 @@ type AppOptions struct {
 	AgentCaps         string
 	AgentSetAsDefault bool
 	AppInterface      string
-	UUIDSuffix        string
 	UUID              string
 }
 
@@ -44,11 +43,8 @@ func NewApp(options AppOptions) (*App, error) {
 
 	app.Options = options
 
-	if app.Options.UUIDSuffix == "" {
-		app.Options.UUIDSuffix = "-0000-1000-8000-00805F9B34FB"
-	}
 	if app.Options.UUID == "" {
-		app.Options.UUID = "1234"
+		app.Options.UUID = "0F3DF50F-09C0-40A5-8208-9836C6040B"
 	}
 	if app.Options.AppInterface == "" {
 		app.Options.AppInterface = AppInterface
@@ -135,12 +131,14 @@ func (app *App) init() error {
 }
 
 // GenerateUUID generate a 128bit UUID
+// 0F3DF50F-09C0-40A5-8208-9836C6040BXX
 func (app *App) GenerateUUID(uuidVal string) string {
 	base := app.Options.UUID
-	if len(uuidVal) == 8 {
+	//TODO: check 128bit overflow
+	/*if len(uuidVal) == 8 {
 		base = ""
-	}
-	return base + uuidVal + app.Options.UUIDSuffix
+	}*/
+	return base + uuidVal
 }
 
 // GetAdapter return the adapter in use
